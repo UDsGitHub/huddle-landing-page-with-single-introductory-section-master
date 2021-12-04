@@ -26,7 +26,6 @@ body {
 header {
   margin-right: auto;
   margin-top: 0.5rem;
-  font-family: "Poppins", sans-serif;
 
   img {
     display: block;
@@ -49,6 +48,7 @@ main {
   flex-direction: column;
   align-items: initial;
   h1 {
+      font-family: 'Poppins', sans-serif;
     font-size: 2.75rem;
     line-height: 1.5;
     margin-top: 2rem;
