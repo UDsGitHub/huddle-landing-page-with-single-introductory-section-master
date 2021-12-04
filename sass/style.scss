@@ -43,22 +43,22 @@ main {
   display: flex;
 }
 
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.75rem;
+  line-height: 1.5;
+  margin-top: 2rem;
+}
+p {
+  font-size: 1.1875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 1.5rem 0;
+}
 .content {
   display: flex;
   flex-direction: column;
   align-items: initial;
-  h1 {
-      font-family: 'Poppins', sans-serif;
-    font-size: 2.75rem;
-    line-height: 1.5;
-    margin-top: 2rem;
-  }
-  p {
-    font-size: 1.1875rem;
-    font-weight: 400;
-    line-height: 1.5;
-    margin: 1.5rem 0;
-  }
   .register {
     display: block;
     padding: 1rem 2rem;
@@ -152,12 +152,16 @@ main {
   header {
     width: 13rem;
   }
+  h1 {
+    font-size: 2rem;
+  }
   .container {
     grid-template-columns: 1fr;
 
     .content {
       align-items: center;
       text-align: center;
+
     }
   }
   .share-links {
